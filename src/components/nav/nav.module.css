@@ -1,0 +1,20 @@
+.divNav {
+    background-image: url(../../../public/Rick-and-Morty-logo-600x257.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+
+.NavLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+    border: 2px;
+    margin: 20px;
+    margin-left: 20%;
+}

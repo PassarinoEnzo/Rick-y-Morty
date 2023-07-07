@@ -1,0 +1,43 @@
+.divCard {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 1fr 20px;
+    grid-template-rows: 20px 200px 30px 25px 25px;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.imgCard {
+    order: -1;
+    width: 250px;
+    height: 250px;
+}
+
+.h2Name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    grid-area: 3/1/4/1;
+    border: 9px solid yellow;
+    line-height: -2;
+    order: 1;
+}
+
+.h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+}
+
+.buttonCard {
+    color: red;
+    display: flex;
+    justify-content: center;
+    grid-area: 1/3;
+    order: 1;
+}
