@@ -1,0 +1,65 @@
+/* Styles for the main container */
+.divCard {
+  background-color: #f2f2f2;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for the main container */
+.divCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the close button */
+.buttonCard {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the close button */
+.buttonCard:hover {
+  background-color: #ff3333;
+}
+
+/* Styles for the headings */
+.h2 {
+  color: #333;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Styles for the link and image */
+.imgCard {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+/* Hover effect for the link and image */
+.imgCard:hover {
+  opacity: 0.8;
+}
+
+/* Styles for the favorite button */
+.buttonFav {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for the favorite button */
+.buttonFav:hover {
+  transform: scale(1.2);
+}
