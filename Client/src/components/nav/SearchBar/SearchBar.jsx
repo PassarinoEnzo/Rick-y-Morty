@@ -11,7 +11,7 @@ export default function SearchBar(props) {
 
    return (
       <div className={styles.divSearchBar}>
-         <input onChange={handleChange} type='search' value={id} />
+         <input placeholder='Escribe un número...' onChange={handleChange} type='search' value={id} />
          <button onClick={()=>{props.onSearch(id)}}>Agregar</button>
       </div>
    );

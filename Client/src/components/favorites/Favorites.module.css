@@ -1,52 +1,45 @@
 .container{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-.divSelects{
-    display: flex;
-    height: 20px;
-    justify-content: center;
-    margin: 15px;
-}
-
-/* Estilos para el contenedor principal */
 .divSelects {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
   
   /* Estilos para los elementos <select> */
-  select {
-    appearance: none;
-    background-color: #f2f2f2;
-    border: 2px solid #ccc;
-    padding: 8px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    color: #333;
-    transition: border-color 0.3s ease;
-  }
+select {
+  appearance: none;
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
   
   /* Estilos para las opciones dentro de los <select> */
-  option {
-    font-size: 16px;
-    color: #333;
-  }
+option {
+  font-size: 16px;
+  color: #333;
+}
   
   /* Estilos para los elementos <select> cuando se les da clic */
-  select:focus {
-    outline: none;
-    border-color: #66afe9;
-  }
+select:focus {
+  outline: none;
+  border-color: #66afe9;
+}
   
   /* Estilos para los elementos <select> cuando se les pasa el mouse */
-  select:hover {
-    border-color: #b3b3b3;
-  }
+select:hover {
+  border-color: #b3b3b3;
+}
   
